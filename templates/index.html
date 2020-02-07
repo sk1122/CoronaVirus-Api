@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block main %}
+    <div class="jumbotron jumbotron-fluid height100p banner" id="home">
+	  <div class="container h100">
+	    <div class="contentBox h100">
+	    	<div>
+	    		<h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" class="h1" style="font-size: 100px !important;">CoronaVirus Data Api</h1>
+	    		<p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">We designed this Api to help developers who want to spread awarness regarding this Virus by making a Website.</p>
+                <a href="#">Feel Free to Use</a>
+	        </div>
+	    </div>
+	  </div>
+	</div>
+{% endblock %}
+
+{% block contact %}
+    <section class="contact" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="headerText text-center">
+						<h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Contact Us</h2>
+						<p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="offset-sm-2 col-sm-8">
+				 	<form>
+						<div class="form-group" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+							<label>Name</label>
+							<input type="text" name="" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>E-mail</label>
+							<input type="email" name="" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Phone</label>
+							<input type="text" name="" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Message</label>
+							<textarea class=" form-control textarea"></textarea>
+						</div>
+						<div class="form-group text-center">
+							<button class="btn btnD1">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock %}
