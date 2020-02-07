@@ -25,7 +25,6 @@ soup = BeautifulSoup(html, 'html.parser')
 soup_country = BeautifulSoup(page, 'html.parser')
 p = soup.find_all('span')
 country_name = soup_country.find_all('h3')
-trans = soup.find_all(SELECTOR)
 
 # Death Number
 death_toll = p[6].text
